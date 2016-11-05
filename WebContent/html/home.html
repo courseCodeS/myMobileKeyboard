@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My keybord game</title>
+	<link rel="stylesheet" href="../css/w3.css">
+<!-- 	<link rel="stylesheet" href="../css/font-awesome.css"> -->
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header class="w3-container w3-card-4 w3-theme w3-top w3-light-green w3-text-white">
+		 <i class="w3-opennav fa fa-bars w3-xxlarge" onclick="w3_open()"></i>
+		<h1>Hello and welcome to my keybord</h1></h2>
+	</header>
+	
+	<nav class="w3-sidenav w3-card-2 w3-white" id="mySidenav">
+		<div class="w3-container w3-theme-d2">
+			<span onclick="w3_close()" class="w3-closenav w3-right w3-xxlarge">x</span>
+			<br>
+			<div class="w3-text-red">
+				<i class="w3-padding w3-center fa fa-keyboard-o w3-xxxlarge"> </i> 
+			</div>		
+		</div>
+		<br>
+		<a href="#">New game</a>
+		<a href="#">Get help</a>
+		<a href="#">Play online</a>
+		<a href="#">Register</a>
+	</nav>
+	<section class="w3-container" style="margin-top:75px; padding-top: 150px; ">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque, justo et rutrum vulputate, 
+		tellus sapien blandit turpis, non convallis quam augue vitae ex. Suspendisse ullamcorper enim vitae 
+		tortor tristique, in molestie arcu dignissim. Proin aliquet accumsan magna non tincidunt. Nunc ipsum 
+		diam, pretium quis molestie at, tincidunt id nisi. Etiam varius commodo enim, eu sodales ex sollicitudin 
+		sit amet. Praesent mollis porta mauris in iaculis. Nunc rhoncus ex sit amet egestas pellentesque. Mauris 
+		vitae sem mauris. Morbi vulputate quam et luctus dignissim. Nulla a velit vitae ante vulputate lobortis.		
+	</section>
+	<section class="w3-container w3-center" style="padding-top: 25px;">
+		<button class="w3-btn w3-green w3-hover-orange">Play</button>
+		<button class="w3-btn w3-green w3-hover-orange">Get help</button>
+		<button class="w3-btn w3-green w3-hover-orange">Online play</button>
+		<button class="w3-btn w3-green w3-hover-orange">Exit</button>
+	</section>
+	<footer class="w3-container w3-theme w3-bottom">@Copyright Innovatech Association</footer>
+	
+	<script>
+		function w3_open() {
+		     document.getElementById("mySidenav").style.display = "block";
+		 } 
+		 function w3_close() { 
+		     document.getElementById("mySidenav").style.display = "none";
+		 }
+	</script>
+	
+</body>
+</html>
